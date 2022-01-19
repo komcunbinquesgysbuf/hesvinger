@@ -2,8 +2,8 @@
 label: Main Menu
 hide_body: false
 fields:
-- name: main_menu
-  label: Main menu
+- name: menu
+  label: menu
   type: field_group_list
   fields:
   - name: url
