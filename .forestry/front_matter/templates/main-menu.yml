@@ -1,6 +1,6 @@
 ---
-label: Main Menu
-hide_body: false
+label: Menu
+hide_body: true
 fields:
 - name: menu
   label: menu
