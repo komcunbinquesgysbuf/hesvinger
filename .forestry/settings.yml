@@ -31,6 +31,7 @@ sections:
   create: none
   match: main_menu.json
   templates:
+  - main-menu
   - menu2
 - type: document
   path: src/data/main_menu.json
