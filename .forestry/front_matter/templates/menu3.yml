@@ -10,8 +10,21 @@ fields:
     name: title
     label: title
   - type: text
-    name: type
-    label: type
-  - type: text
     name: url
     label: url
+  - name: type
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - internal
+      - external
+      source:
+        type: simple
+        section: 
+        file: src/data/main_menu.json
+        path: 
+    label: type
+  config:
+    labelField: title
