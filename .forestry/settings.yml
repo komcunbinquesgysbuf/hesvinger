@@ -25,6 +25,13 @@ sections:
   - post
 - type: heading
   label: Config
+- type: directory
+  path: src/data
+  label: menu2
+  create: none
+  match: main_menu.json
+  templates:
+  - menu2
 - type: document
   path: src/data/main_menu.json
   label: Nav Menu
