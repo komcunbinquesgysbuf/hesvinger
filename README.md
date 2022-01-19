@@ -1,3 +1,7 @@
+# Installing dependencies
+
+`docker run --rm -it -w /home/node -v $(pwd):/home/node -u node node:12 npm i`
+
 # Gatsby Forestry Starter
 
 This is a Gatsby starter for creating a static site with content sourced from markdown files. This project is pre-configured for use with the Forestry CMS.
