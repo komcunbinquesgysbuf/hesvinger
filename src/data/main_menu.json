@@ -1,22 +1,22 @@
 [
     {
+        "title": "Home",
         "type": "internal",
-        "url": "/",
-        "title": "Home"
+        "url": "/"
     },
     {
+        "title": "What is this?",
         "type": "internal",
-        "url": "/about-the-demo",
-        "title": "What is this?"
+        "url": "/about-the-demo"
     },
     {
+        "title": "About Gatsby",
         "type": "internal",
-        "url": "/about-the-ssg",
-        "title": "About Gatsby"
+        "url": "/about-the-ssg"
     },
     {
+        "title": "Blog",
         "type": "internal",
-        "url": "/posts",
-        "title": "Blog"
+        "url": "/posts"
     }
 ]
