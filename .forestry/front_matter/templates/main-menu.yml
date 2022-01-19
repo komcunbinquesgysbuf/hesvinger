@@ -31,4 +31,4 @@ fields:
   hidden: false
   default: ''
   config:
-    labelField: url
+    labelField: title
