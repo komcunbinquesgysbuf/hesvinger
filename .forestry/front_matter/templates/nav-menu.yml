@@ -1,4 +1,12 @@
 ---
 label: Nav Menu
 hide_body: true
-fields: []
+fields:
+- name: items
+  type: blocks
+  label: items
+  template_types:
+  - nav-item
+  config:
+    min: 
+    max: 
