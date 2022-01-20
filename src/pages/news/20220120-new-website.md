@@ -9,3 +9,5 @@ Here we go.
 ![](/images/icon.png)
 
 This text follows after the image.
+
+![](./icon.png)
