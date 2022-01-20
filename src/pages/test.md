@@ -1,3 +1,7 @@
+---
+title: Test page
+
+---
 # Test
 
 Hello, this is a paragraph.
