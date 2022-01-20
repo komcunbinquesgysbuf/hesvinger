@@ -22,7 +22,7 @@ sections:
   path: package.json
   label: package.json
 upload_dir: src/images
-public_path: "."
+public_path: "../../images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":year:-:month:/:filename:"
