@@ -1,11 +1,12 @@
 ---
 title: New Website
-
+extra: foo
 ---
+
 # New Website
 
 Here we go.
 
-![](../../images/icon.png)
+![](/src/images/icon.png)
 
 This text follows after the image.
