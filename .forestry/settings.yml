@@ -16,6 +16,6 @@ build:
   preview_output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: node:14
-  mount_path: "/srv"
-  working_dir: "/srv"
+  mount_path: "/srv/app"
+  working_dir: "/srv/app"
   instant_preview_command: npm run forestry:preview
