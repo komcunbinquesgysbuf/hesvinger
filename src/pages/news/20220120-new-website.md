@@ -6,8 +6,6 @@ title: New Website
 
 Here we go.
 
-![](/images/icon.png)
+![](../../images/icon.png)
 
 This text follows after the image.
-
-![](./icon.png)
