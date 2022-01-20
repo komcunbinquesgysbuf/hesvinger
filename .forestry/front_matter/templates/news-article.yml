@@ -5,3 +5,4 @@ fields:
 - type: text
   name: title
   label: title
+  description: Der Seitentitel, wie er im Browsertab angezeigt wird.
