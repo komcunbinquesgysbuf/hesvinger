@@ -9,7 +9,24 @@ sections:
   label: Markdown Pages
   create: all
   match: "**/*.md*"
-  new_doc_ext: ".mdx"
+  new_doc_ext: mdx
+- type: heading
+  label: Settings
+- type: document
+  path: forestry/settings.yml
+  label: forestry
+  match: "**/*"
+  read_only: true
+- type: document
+  path: gatsby-config.js
+  label: gatsby-config.js
+  match: "**/*"
+  read_only: true
+- type: document
+  path: package.json
+  label: package.json
+  match: "**/*"
+  read_only: true
 upload_dir: src/images
 public_path: "/images"
 front_matter_path: ''
