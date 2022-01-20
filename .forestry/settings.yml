@@ -15,17 +15,14 @@ sections:
 - type: document
   path: forestry/settings.yml
   label: forestry
-  match: "**/*"
   read_only: true
 - type: document
   path: gatsby-config.js
   label: gatsby-config.js
-  match: "**/*"
   read_only: true
 - type: document
   path: package.json
   label: package.json
-  match: "**/*"
   read_only: true
 upload_dir: src/images
 public_path: "/images"
