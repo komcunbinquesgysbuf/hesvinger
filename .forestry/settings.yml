@@ -7,9 +7,11 @@ sections:
 - type: directory
   path: src/pages
   label: Markdown Pages
-  create: all
+  create: documents
   match: "**/*.md*"
   new_doc_ext: mdx
+  templates:
+  - news-article
 - type: heading
   label: Settings
 - type: document
