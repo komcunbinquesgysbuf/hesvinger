@@ -1,5 +1,6 @@
 ---
 title: Test page
+featureImage: "/src/images/icon.png"
 
 ---
 # Test
