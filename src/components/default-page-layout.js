@@ -13,13 +13,14 @@ const query = graphql`
     }
 `;
 
-const DefaultPageLayout = ({children, pageContext, location}) => {
+const DefaultPageLayout = ({children, pageContext, ...other}) => {
     const {site} = useStaticQuery(query);
     return (
         <article>
             <Helmet>
                 <title>{pageContext.frontmatter.title ?? ''} — {site.siteMetadata.title}</title>
             </Helmet>
+            <pre>{JSON.stringify({pageContext, ...other}, null, 2)}</pre>
             <MDXProvider
                 components={{
                     // foo: props => <label><input type="checkbox"/><span {...props}/></label>, // register <foo ...>...</foo>
